@@ -78,6 +78,24 @@ div.subli {
     color: rgb(37, 145, 37);   
 }
 
+#videobody {
+    padding: 1px 1px;
+    margin: auto;
+    display: inline-block;
+}
+
+#video {
+    display:inline;
+    max-width: 420px;
+    min-width: 220px;
+    border: solid green 8px;
+    
+}
+
+iframe {
+    
+}
+
 footer {
     background-color: #D9C589;
 }
