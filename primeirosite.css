@@ -50,8 +50,8 @@ main > section > article > p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     font-size: 1em;
-    padding: 2px 1px;
-    margin: 1px 1px 0px 3px;
+    padding: 2px 1px 1px 2px;
+    margin: 1px 1px 0px 0px;
     display:inline;   
 }
 
@@ -64,6 +64,11 @@ main > section > article > aside > picture {
     margin: 3px 10px;
     
 }
+
+section {
+    padding-left: 8px;
+}
+
 div.subli {
     display:inline;
     padding: 0px 0px;
@@ -87,6 +92,7 @@ footer {
     box-shadow: 1px -1px 1px 0px rgb(0 0 0 / 51%);;
     max-width: 70%;
     min-width: 50%;
+    font-size: 16pt;
 }
 
 footer > a {   
