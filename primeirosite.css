@@ -8,6 +8,13 @@ body {
     background-color: #45858C;
 }
 
+header {
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-top: 5px;
+}
+
 main {
     background-image: linear-gradient(95deg, #A0D9D9, #D9C589);
     margin: auto;
