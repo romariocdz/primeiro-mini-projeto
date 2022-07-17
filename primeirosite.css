@@ -20,8 +20,8 @@ main {
     margin: auto;
     box-shadow: 2px 3px 1px rgb(0 0 0 / 31%);
     border-radius: 5px 5px 5px 5px;
-    max-width: 70%;
-    min-width: 50%;
+    max-width: 1000px;
+    min-width: 593px;
 }
 
 main > section > article > h1 {
@@ -48,7 +48,7 @@ article > h3 {
 }
 main > section > article > p {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
+    text-align: left;
     font-size: 1em;
     padding: 2px 1px 1px 2px;
     margin: 1px 1px 0px 0px;
@@ -80,46 +80,58 @@ div.subli {
 
 #videobody {
     padding: 1px 1px;
-    margin: auto;
+    margin: 3px 2px 1px 6px;
     display: inline-block;
-}
-
-#video {
-    display:inline;
-    max-width: 420px;
+    max-width: 415px;
     min-width: 220px;
-    border: solid green 8px;
-    
+    border: 3px solid green;
     
 }
 
 iframe {
-    position: absolute;
+
+    position: relative;
+    max-width: 25em;
+    min-width: 14em;
+    height: 14em;
+    
+    
 }
 
+
+
 footer {
+    font-size: 16pt;
+    border-radius: 5px 5px;
+    box-shadow: 1px -1px 1px 0px rgb(0 0 0 / 51%);
     background-color: #D9C589;
+    margin: auto;
+    margin-top: 3px;
+    padding-top: 1px; 
+    max-width: 1030px;
+    min-width: 550px;
+    height: 4.1em;
+    
 }
+
 #redes {
     text-align: center;
     text-decoration: underline;
-}
-
-footer {
-    margin: auto;
-    border-radius: 5px 5px;
-    box-shadow: 1px -1px 1px 0px rgb(0 0 0 / 51%);;
-    max-width: 70%;
-    min-width: 50%;
-    font-size: 16pt;
+    padding: 0px 0px;
+    margin-top: 2px ;
+    margin-bottom: 2px;
 }
 
 footer > a {   
     margin:0px 10px;
-    font-size: 23px;
-    
-    
+    padding: 1px 1px;
+    font-size: 23px;  
 }
+
+footer > a > img {
+    padding: 0px 0px;
+}
+
 a:hover {
     text-decoration: underline;
     color: #D92B04;
@@ -127,6 +139,10 @@ a:hover {
 #marca {
     color: #D92B04;
     text-align: center;
+    padding: 0px 0px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+   
     
 }
 
