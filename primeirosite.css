@@ -5,7 +5,10 @@
    --cor1:#D92B04;
 }
 body {
-    background-image: url('../htmlex/ex22/imagens-cap19/pattern004.png');
+    
+    background-image: url('imagens/fundo\ capa/wallpaper002.jpg');
+    background-repeat: repeat-y;
+    background-position: center center;   
 }
 
 header {
