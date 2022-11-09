@@ -8,6 +8,7 @@ body {
     
     background-image: url('imagens/fundo\ capa/wallpaper002.jpg');
     background-repeat: repeat-y;
+    background-size: 100%;
     background-position: center center;   
 }
 
