@@ -4,12 +4,12 @@
    --cor0:#BF9765;
    --cor1:#D92B04;
 }
-body {
-    
+body {    
+    background-color: black;
     background-image: url('imagens/fundo\ capa/wallpaper002.jpg');
-    background-repeat: repeat-y;
-    background-size: 100%;
-    background-position: center center;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;      
 }
 
 header {
