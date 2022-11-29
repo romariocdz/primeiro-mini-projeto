@@ -64,47 +64,41 @@ main > section > article > picture {
     margin: 5px 10px;
 }
 
-main > section > article > aside > picture {
+main > section > article > aside > picture{
     margin: 3px 10px;
     
-}
+ }
 
-section {
+section{
     padding-left: 8px;
-}
+ }
 
-div.subli {
+div.subli{
     display:inline;
     padding: 0px 0px;
     margin: 0px 0px;
     font-size: 1.2em;
     text-decoration: underline;
     color: rgb(37, 145, 37);   
-}
+ }
 
-#videobody {
+#videobody{
     padding: 1px 1px;
     margin: 3px 2px 1px 6px;
     display: inline-block;
     max-width: 415px;
     min-width: 220px;
-    border: 3px solid green;
-    
-}
+    border: 3px solid green;   
+ }
 
-iframe {
-
+iframe{
     position: relative;
     max-width: 25em;
     min-width: 14em;
-    height: 14em;
-    
-    
-}
+    height: 14em;   
+ }
 
-
-
-footer {
+footer{
     font-size: 16pt;
     border-radius: 5px 5px;
     box-shadow: 1px -1px 1px 0px rgb(0 0 0 / 51%);
@@ -114,23 +108,22 @@ footer {
     padding-top: 1px; 
     max-width: 1030px;
     min-width: 550px;
-    height: 4.1em;
-    
-}
+    height: 4.1em;   
+ }
 
-#redes {
+#redes{
     text-align: center;
     text-decoration: underline;
     padding: 0px 0px;
     margin-top: 2px ;
     margin-bottom: 2px;
-}
+ }
 
-footer > a {   
+footer > a{   
     margin: 2px 8px;
     padding: 1px 5px;
     font-size: 24px;  
-}
+ }
 
 footer > a > img {
     padding: 0px 0px;
@@ -140,13 +133,39 @@ a:hover {
     text-decoration: underline;
     color: #D92B04;
 }
-#marca {
+#marca{
     color: #D92B04;
     text-align: center;
     padding: 0px 0px;
     margin-top: 1px;
+    margin-bottom: 1px;   
+ }
+
+#coment{
+    background-color:#BF9765;
+    margin-top: 3px;
     margin-bottom: 1px;
-   
+    height: 100%;
+}
+section > h2{
+    font-size: 15pt;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 1px;
+    margin-bottom: 2px;
+ }
+
+#fazenda{
+    margin-top: 1px;
+    padding: 1px;
+} 
+#input{
     
+}
+
+#box1{
+    position:absolute;
+    float: bottom;
+    width: 200px;
+    height: 100px;;
 }
 
