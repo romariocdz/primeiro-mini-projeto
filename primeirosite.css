@@ -4,6 +4,10 @@
    --cor0:#BF9765;
    --cor1:#D92B04;
 }
+@font-face {
+    font-family: mangatb;
+    src: url('fontes/mangatb.ttf');
+}
 body {    
     background-color: black;
     background-image: url('imagens/fundo\ capa/wallpaper002.jpg');
@@ -12,7 +16,26 @@ body {
     background-attachment: fixed;      
 }
 
-header {
+#nav{
+    
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 60px;
+}
+
+nav > a{
+    border: 1px white solid;
+    border-radius: 1px 5px 5px 1px;
+    font-family: mangatb;
+    font-size: 14pt;
+    text-decoration: none;
+    position: relative;
+    padding: 3px 3px;
+    margin: 0px 0px 0px 0px;
+}
+
+#topo {
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
