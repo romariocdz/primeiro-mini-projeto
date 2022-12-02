@@ -5,8 +5,8 @@
    --cor1:#D92B04;
 }
 @font-face {
-    font-family: mangatb;
-    src: url('fontes/mangatb.ttf');
+    font-family: segoe;
+    src: url('fontes/segoeprb.ttf');
 }
 body {    
     background-color: black;
@@ -27,7 +27,7 @@ body {
 nav > a{
     border: 1px white solid;
     border-radius: 1px 5px 5px 1px;
-    font-family: mangatb;
+    font-family: segoe;
     font-size: 14pt;
     text-decoration: none;
     position: relative;
